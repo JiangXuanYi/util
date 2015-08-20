@@ -14,7 +14,7 @@ Under developing and testing.
 ## Design (How does it works?)
 
 If there are the array of json in my web apps.I want to paging it to display in the HTML on the screen,so I must know the startelement and the size of the page in the HTML.
-```go****
+```go
 func paging(page_element_start int, page_size int, array []int) ([]int, string) {
     var arraySlice []int
     pageEnd := page_size + page_element_start - 1
