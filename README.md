@@ -8,8 +8,24 @@ Under developing and testing.
 
 2015-08-14
 
-    1、通过数组Array、切片Slice、对所返回的数据进行切片分页 
-    2、使用swich作为逻辑判定，减少了无线if&for的嵌套循环，增加代码的可读性。
+1,通过数组Array、切片Slice、对所返回的数据进行切片分页 
+2,使用swich作为逻辑判定，减少了无线if&for的嵌套循环，增加代码的可读性。
+	
+2015-08-21
+
+1,
+```go
+	func paging_map_interface(page_element_start int, page_size int, array []map[string]interface{}) 
+```
+将上面的第一个参数page_element_start 换为 page_start,即
+```go
+	func paging_map_interface2(page_start int, page_size int, array []map[string]interface{})
+```
+即函数参数列表中文为
+```
+	(起始业码，分页大小（数据分页长度)，数据数组）
+```
+	
     
 ## Design (How does it works?)
 
