@@ -12,6 +12,7 @@ func main() {
 		panic(err)
 	}
 	defer f.Close()
+
 	f.WriteString("\xEF\xBB\xBF")
 	w := csv.NewWriter(f)
 	w.Write([]string{"Number", "Name", "Age"})
