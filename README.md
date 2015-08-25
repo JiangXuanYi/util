@@ -3,7 +3,10 @@
 工具方法，用于收个人使用中一些小问题的解决方法类和函数。
 ## Project Status
 Under developing and testing.
-
+###[ExportToXLS.go]
+2015-08-24
+1,解决前几日提交未被github计数问题
+2,此demo提供一个方法，可将规则json导出至.xls。便于运营阶段的数据分析与统计。
 ###[paging.go](https://github.com/JiangXuanYi/util/blob/master/paging.go)
 
 2015-08-14
